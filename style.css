@@ -1,4 +1,4 @@
-    body {
+body {
     font-family: Arial, sans-serif;
     background: #a79595;
     margin: 0;
@@ -160,9 +160,6 @@ footer {
     display: flex;
 }
 
-
-/* Mobile responsiveness */
-
 @media (max-width: 768px) {
     header {
         padding: 15px 20px;
@@ -184,6 +181,15 @@ footer {
         padding: 30px 20px;
         text-align: center;
     }
+    .home-text h1 {
+        font-size: 2rem;
+        line-height: 1.3;
+        text-align: center;
+    }
+    .hero-text p {
+        font-size: 1rem;
+        text-align: center;
+    }
     img {
         margin-top: 20px;
         width: 150px;
@@ -191,7 +197,16 @@ footer {
     }
     .skill-cards {
         flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .skill-cards .card {
+        width: 80%;
+        text-align: center;
     }
     .contact,
     .about,
-    .skills
+    .skills {
+        padding: 30px 20px;
+    }
+}
