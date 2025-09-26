@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #a79595;
+}
+
+header {
+    background: linear-gradient(#2575fc);
+    padding: 15px 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 333px;
+    gap: 40px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background: #a79595;
+}
+
+.home-text h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.hero-text span {
+    color: #2575fc;
+}
+
+.hero-text p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+img {
+    width: 200px;
+    height: 220px;
+    border-radius: 450%;
+    border: 4px solid #2575fc;
+}
+
+.about {
+    padding: 50px;
+    text-align: center;
+    background: #f1f1f1;
+}
+
+.about h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+    color: #2575fc;
+}
+
+.skills {
+    padding: 50px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 34px;
+    color: #1259d3;
+}
+
+.skill-cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skill-cards .card {
+    background: #2575fc;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.skill-cards .card:hover {
+    color: red;
+}
+
+.contact {
+    padding: 50px;
+    text-align: center;
+    background: #f1f1f1;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    gap: 10px;
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact form button:hover {
+    background: #6a11cb;
+}
+
+.contact-info {
+    margin-top: 20px;
+    color: #333;
+}
+
+footer {
+    background: #2575fc;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.content {
+    position: relative;
+}
+
+.tahir {
+    position: absolute;
+    top: 00px;
+    left: 150px;
+    color: aqua;
+    display: flex;
+}
