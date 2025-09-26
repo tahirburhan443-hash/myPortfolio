@@ -61,12 +61,21 @@ img {
     max-width: 100%;
 }
 
-.about,
-.skills,
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background: #854545;
+}
+
+.skills {
+    padding: 50px 20px;
+    text-align: center;
+}
+
 .contact {
     padding: 50px 20px;
     text-align: center;
-    background: #dac7c7;
+    background: #d4bdbd;
 }
 
 .about h2,
@@ -199,4 +208,10 @@ footer {
     .skills {
         padding: 30px 20px;
     }
+}
+
+padding: 30px 20px;
+
+}
+
 }
