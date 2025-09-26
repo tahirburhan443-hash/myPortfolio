@@ -124,7 +124,6 @@ img {
     cursor: pointer;
     font-weight: bold;
     background: #2575fc;
-    color: white;
     border: none;
     transition: 0.3s;
 }
@@ -135,7 +134,7 @@ img {
 
 .contact-info {
     margin-top: 20px;
-    color: #333;
+    color: #252424;
 }
 
 footer {
@@ -155,27 +154,4 @@ footer {
     left: 150px;
     color: aqua;
     display: flex;
-}
-
-
-/* Mobile responsiveness for header and links */
-
-@media (max-width: 768px) {
-    header {
-        padding: 15px 20px;
-        overflow: hidden;
-    }
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-    nav ul {
-        margin: 0;
-        padding: 0;
-        flex-direction: column;
-        gap: 15px;
-    }
-    nav ul li a {
-        font-size: 1.2rem;
-    }
 }
