@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: linear-gradient(#2575fc, #6a11cb);
+    background: linear-gradient(#2575fc);
     padding: 15px 40px;
     overflow: hidden;
 }
@@ -16,6 +16,7 @@ nav {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    display: inline;
 }
 
 nav ul {
@@ -32,12 +33,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
 .home {
     display: flex;
     justify-content: space-between;
@@ -50,10 +45,6 @@ nav ul li a {
 .home-text h1 {
     font-size: 2.5rem;
     color: #333;
-}
-
-.hero-text span {
-    color: #2575fc;
 }
 
 .hero-text p {
@@ -75,7 +66,7 @@ img {
 .contact {
     padding: 50px 20px;
     text-align: center;
-    background: #f1f1f1;
+    background: #dac7c7;
 }
 
 .about h2,
@@ -99,7 +90,6 @@ img {
     border-radius: 8px;
     font-weight: bold;
     transition: transform 0.3s;
-    flex: 1 1 120px;
     text-align: center;
 }
 
