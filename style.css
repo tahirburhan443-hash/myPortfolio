@@ -24,6 +24,7 @@ nav ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
+    display: flex;
 }
 
 .home {
@@ -90,6 +91,7 @@ img {
     padding: 15px 25px;
     border-radius: 8px;
     font-weight: bold;
+    display: flex;
     transition: transform 0.3s;
 }
 
